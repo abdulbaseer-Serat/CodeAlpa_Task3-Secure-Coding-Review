@@ -58,5 +58,5 @@ cd "F:\Internships DATA\CodeAlpha\Cyber Security Tasks\TASK 3 Secure Coding Revi
 ```
 3. Set execution policy (Windows PowerShell only)
 ```bash
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+cd "F:\Internships DATA\CodeAlpha\Cyber Security Tasks\TASK 3 Secure Coding Review"
 ```
