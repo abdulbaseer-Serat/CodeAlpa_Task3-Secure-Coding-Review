@@ -5,7 +5,6 @@ This project focuses on performing a **Secure Coding Review** on a Python Flask-
 The goal is to identify security vulnerabilities and apply best practices to improve application security.
 
 ---
-
 ## 📋 Task Requirements
 
 | Requirement | Status |
@@ -17,7 +16,6 @@ The goal is to identify security vulnerabilities and apply best practices to imp
 | Document findings & remediation steps | ✅ |
 
 ---
-
 ## 🎯 Objective
 
 - Select an application to audit  
@@ -71,6 +69,7 @@ if not username:
 ```python
 bcrypt.checkpw(password.encode(), stored_password)
 ```
+
 ---
 ## 🛡️ Recommendations
 
@@ -80,6 +79,16 @@ bcrypt.checkpw(password.encode(), stored_password)
 - Improve authentication logic
 - Secure database files
 - Use HTTPS in production
+
+---
+## 🔧 Remediation Steps
+
+1. Remove hardcoded values
+2. Strengthen password policies
+3. Add input validation
+4. Fix login logic
+6. Protect database
+7. Improve rate limiting
 
 ---
 ## 📁 Project Structure
