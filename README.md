@@ -58,12 +58,12 @@ Fix: Use strong passwords
 username = request.form['username']
 ```
 Risk: Injection attacks
-Fix: 
-    ```python
-if not username:
+Fix:
+```python
+ if not username:
     return "Invalid input"
-    ```
-    
+```
+
 #### ⚠️ 4. Incomplete Authentication Logic
 - users.db included in project
 - Fix:
