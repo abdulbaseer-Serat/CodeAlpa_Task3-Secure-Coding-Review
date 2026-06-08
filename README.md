@@ -70,6 +70,7 @@ if not username:
 ```python
 bcrypt.checkpw(password.encode(), stored_password)
 ```
+---
 
 ##🛡️ Recommendations
 
@@ -79,7 +80,6 @@ Validate user inputs
 Improve authentication logic
 Secure database files
 Use HTTPS in production
----
 
 ---
 ## 📁 Project Structure
