@@ -60,3 +60,23 @@ cd "F:\Internships DATA\CodeAlpha\Cyber Security Tasks\TASK 3 Secure Coding Revi
 ```bash
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
+4. Activate virtual environment:
+```bash
+.\venv\Scripts\Activate
+```
+5. Run the application:
+```bash
+python app.py
+
+⚠️ Note: warnings.warn(
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+leave it in running mode and go to the web Browser 
+```
+6. Open in browser:
+```bash
+Type "http://127.0.0.1:5000"
+```
