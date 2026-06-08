@@ -48,6 +48,10 @@ app.secret_key = "supersecretkey"
 🔴 Risk: Session hijacking
 ✅ Fix: Use environment variables
 
+### ❌ 2. Weak Password
+```
+password = "123456"
+```
 ---
 ## 📁 Project Structure
 ```bash
