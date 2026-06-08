@@ -15,7 +15,7 @@ The goal is to identify security vulnerabilities and apply best practices to imp
 | Provide recommendations & best practices | ✅ |
 | Document findings & remediation steps | ✅ |
 
----
+
 ## 🎯 Objective
 
 - Select an application to audit  
@@ -24,7 +24,7 @@ The goal is to identify security vulnerabilities and apply best practices to imp
 - Provide recommendations for secure coding  
 - Document findings and remediation steps  
 
----
+
 ## 🧪 Application Details
 
 - Language: Python 🐍  
@@ -36,7 +36,7 @@ The app includes:
 - Database storage  
 - Password hashing (bcrypt)
   
----
+
 ## 🔍 Security Findings
 
 ### ❌ 1. Hardcoded Secret Key
@@ -70,7 +70,7 @@ if not username:
 bcrypt.checkpw(password.encode(), stored_password)
 ```
 
----
+
 ## 🛡️ Recommendations
 
 - Use environment variables for secrets
@@ -79,7 +79,7 @@ bcrypt.checkpw(password.encode(), stored_password)
 - Improve authentication logic
 - Secure database files
 - Use HTTPS in production
-
+  
 
 ## 🔧 Remediation Steps
 
@@ -136,7 +136,7 @@ leave it in running mode and go to the web Browser
 Type "http://127.0.0.1:5000"
 ```
 
----
+
 ## 📚 Learning Outcomes
 
 - Understanding secure coding practices
@@ -144,7 +144,7 @@ Type "http://127.0.0.1:5000"
 - Applying fixes and improvements
 - Learning Flask security basics
 
----
+
 ## 🧑‍💻 Developer
 
 Abdulbaseer Serat  
