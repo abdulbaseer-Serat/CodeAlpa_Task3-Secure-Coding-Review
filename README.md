@@ -39,21 +39,21 @@ The app includes:
 
 ## 🔍 Security Findings
 
-### ❌ 1. Hardcoded Secret Key
+#### ❌ 1. Hardcoded Secret Key
 ```python
 app.secret_key = "supersecretkey"
 ```
 🔴 Risk: Session hijacking
 ✅ Fix: Use environment variables
 
-### ❌ 2. Weak Password
+#### ❌ 2. Weak Password
 ```python
 password = "123456"
 ```
 🔴 Risk: Easy to guess
 ✅ Fix: Use strong passwords
 
-### ❌ 3. No Input Validation
+#### ❌ 3. No Input Validation
 ```python
 username = request.form['username']
 ```
@@ -64,7 +64,7 @@ if not username:
     return "Invalid input"
     ```
     
-### ⚠️ 4. Incomplete Authentication Logic
+#### ⚠️ 4. Incomplete Authentication Logic
 - users.db included in project
 ```python
 bcrypt.checkpw(password.encode(), stored_password)
