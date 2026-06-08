@@ -80,7 +80,7 @@ bcrypt.checkpw(password.encode(), stored_password)
 - Secure database files
 - Use HTTPS in production
 
----
+
 ## 🔧 Remediation Steps
 
 1. Remove hardcoded values
@@ -90,7 +90,7 @@ bcrypt.checkpw(password.encode(), stored_password)
 6. Protect database
 7. Improve rate limiting
 
----
+
 ## 📁 Project Structure
 ```bash
 TASK 3 Secure Coding Review/
@@ -136,7 +136,6 @@ leave it in running mode and go to the web Browser
 Type "http://127.0.0.1:5000"
 ```
 
----
 ---
 ## 📚 Learning Outcomes
 
