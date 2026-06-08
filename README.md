@@ -38,13 +38,13 @@ The app includes:
 - User login system  
 - Database storage  
 - Password hashing (bcrypt)  
-
+---
 ## 🔍 Security Findings
 
 ### ❌ 1. Hardcoded Secret Key
 ```python
 app.secret_key = "supersecretkey"
-
+```
 ---
 ## 📁 Project Structure
 ```bash
