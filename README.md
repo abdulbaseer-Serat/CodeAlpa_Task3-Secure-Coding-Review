@@ -1,8 +1,8 @@
-# ✅ TASK 3: Secure Coding Review
+# 🔐 TASK 3: Secure Coding Review
 
 ## 📌 Overview
-This project focuses on reviewing application code to identify security vulnerabilities and improve overall code safety.  
-The goal is to understand common security issues and apply best practices for secure software development.
+This project focuses on performing a **Secure Coding Review** on a Python Flask-based application.  
+The goal is to identify security vulnerabilities and apply best practices to improve application security.
 
 ---
 
@@ -18,17 +18,34 @@ The goal is to understand common security issues and apply best practices for se
 
 ---
 
-## 🚀 Features
 
-- 🔍 Code analysis for vulnerabilities  
-- 🛡️ Identification of security risks  
-- 📊 Use of static analysis techniques  
-- 🧠 Manual inspection of code logic  
-- ✅ Recommendations for secure coding  
-- 📄 Documentation of findings and fixes  
+## 🎯 Objective
+
+- Select an application to audit  
+- Perform code review to identify vulnerabilities  
+- Use static analysis and manual inspection  
+- Provide recommendations for secure coding  
+- Document findings and remediation steps  
 
 ---
+## 🧪 Application Details
 
+- Language: Python 🐍  
+- Framework: Flask 🌐  
+- Database: SQLite 🗄️  
+
+The app includes:
+- User login system  
+- Database storage  
+- Password hashing (bcrypt)  
+
+## 🔍 Security Findings
+
+### ❌ 1. Hardcoded Secret Key
+```python
+app.secret_key = "supersecretkey"
+
+---
 ## 📁 Project Structure
 ```
 TASK 3 Secure Coding Review/
@@ -40,14 +57,7 @@ TASK 3 Secure Coding Review/
 └── users.db          → SQLite database file
 └── README.md         → Documentation
 ```
-## 🛠️ Tools & Technologies Used
 
-- 🐍 Python (or your selected language)  
-- 🔍 Static Code Analysis  
-- 🧠 Manual Code Review Techniques  
-- 🔐 Secure Coding Practices  
-
----
 
 ## ▶️ How to Run
 1. Open "CMD" or Power Shell
