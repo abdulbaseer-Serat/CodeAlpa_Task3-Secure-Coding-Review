@@ -45,6 +45,8 @@ The app includes:
 ```python
 app.secret_key = "supersecretkey"
 ```
+🔴 Risk: Session hijacking
+✅ Fix: Use environment variables
 ---
 ## 📁 Project Structure
 ```bash
