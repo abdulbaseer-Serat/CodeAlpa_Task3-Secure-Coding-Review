@@ -71,15 +71,13 @@ if not username:
 bcrypt.checkpw(password.encode(), stored_password)
 ```
 ---
-
 ##🛡️ Recommendations
-
-Use environment variables for secrets
-Enforce strong passwords
-Validate user inputs
-Improve authentication logic
-Secure database files
-Use HTTPS in production
+- Use environment variables for secrets
+- Enforce strong passwords
+- Validate user inputs
+- Improve authentication logic
+- Secure database files
+- Use HTTPS in production
 
 ---
 ## 📁 Project Structure
