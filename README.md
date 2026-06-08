@@ -31,3 +31,10 @@ The goal is to understand common security issues and apply best practices for se
 
 ## 📁 Project Structure
 
+TASK 3 Secure Coding Review/
+├── templates/        → HTML templates (UI pages)
+├── venv/             → Virtual environment (can be ignored in repo)
+├── add_user.py       → Script to add users to database
+├── app.py            → Main application file
+├── database_db.py    → Database connection & setup
+└── users.db          → SQLite database file
