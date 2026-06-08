@@ -18,7 +18,6 @@ The goal is to identify security vulnerabilities and apply best practices to imp
 
 ---
 
-
 ## 🎯 Objective
 
 - Select an application to audit  
@@ -37,7 +36,8 @@ The goal is to identify security vulnerabilities and apply best practices to imp
 The app includes:
 - User login system  
 - Database storage  
-- Password hashing (bcrypt)  
+- Password hashing (bcrypt)
+  
 ---
 ## 🔍 Security Findings
 
@@ -65,13 +65,15 @@ username = request.form['username']
 if not username:
     return "Invalid input"
     ```
+    
 ### ⚠️ 4. Incomplete Authentication Logic
 - users.db included in project
 ```python
 bcrypt.checkpw(password.encode(), stored_password)
 ```
 ---
-🛡️ Recommendations
+##🛡️ Recommendations
+
 - Use environment variables for secrets
 - Enforce strong passwords
 - Validate user inputs
