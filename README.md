@@ -43,19 +43,22 @@ The app includes:
 ```python
 app.secret_key = "supersecretkey"
 ```
-Risk: Session hijacking &emsp; Fix: Use environment variables
+- Risk: Session hijacking
+- Fix: Use environment variables
 
 #### ❌ 2. Weak Password
 ```python
 password = "123456"
 ```
-Risk: Easy to guess &emsp; Fix: Use strong passwords
+- Risk: Easy to guess
+- Fix: Use strong passwords
 
 #### ❌ 3. No Input Validation
 ```python
 username = request.form['username']
 ```
-Risk: Injection attacks &emsp; Fix:
+- Risk: Injection attacks
+- Fix:
 ```python
  if not username:
     return "Invalid input"
