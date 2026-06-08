@@ -43,8 +43,8 @@ The app includes:
 ```python
 app.secret_key = "supersecretkey"
 ```
-🔴 Risk: Session hijacking
-✅ Fix: Use environment variables
+Risk: Session hijacking
+Fix: Use environment variables
 
 #### ❌ 2. Weak Password
 ```python
