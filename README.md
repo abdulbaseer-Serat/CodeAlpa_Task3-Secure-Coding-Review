@@ -50,15 +50,15 @@ Fix: Use environment variables
 ```python
 password = "123456"
 ```
-🔴 Risk: Easy to guess
-✅ Fix: Use strong passwords
+Risk: Easy to guess
+Fix: Use strong passwords
 
 #### ❌ 3. No Input Validation
 ```python
 username = request.form['username']
 ```
-🔴 Risk: Injection attacks
-✅ Fix: 
+Risk: Injection attacks
+Fix: 
     ```python
 if not username:
     return "Invalid input"
@@ -66,6 +66,7 @@ if not username:
     
 #### ⚠️ 4. Incomplete Authentication Logic
 - users.db included in project
+- Fix:
 ```python
 bcrypt.checkpw(password.encode(), stored_password)
 ```
