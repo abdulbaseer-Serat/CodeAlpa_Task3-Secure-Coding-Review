@@ -72,9 +72,11 @@ bcrypt.checkpw(password.encode(), stored_password)
 ```
 ---
 ✅ Secure Practices Identified
+```bash
 ✔️ Password hashing using bcrypt
 ✔️ Parameterized SQL queries
 ✔️ Rate limiting implemented
+```
 ---
 ## 📁 Project Structure
 ```bash
