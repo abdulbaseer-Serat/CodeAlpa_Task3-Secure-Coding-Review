@@ -72,7 +72,7 @@ if not username:
 bcrypt.checkpw(password.encode(), stored_password)
 ```
 ---
-##🛡️ Recommendations
+## 🛡️ Recommendations
 
 - Use environment variables for secrets
 - Enforce strong passwords
