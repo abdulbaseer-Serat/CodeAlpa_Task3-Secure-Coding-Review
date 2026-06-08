@@ -50,8 +50,13 @@ TASK 3 Secure Coding Review/
 ---
 
 ## ▶️ How to Run
-1. 
-1. Navigate to the project directory e.g.:
+1. Open "CMD" or Power Shell
+2. Navigate to the project directory e.g.:
 
 ```bash
 cd "F:\Internships DATA\CodeAlpha\Cyber Security Tasks\TASK 3 Secure Coding Review"
+```
+3. Set execution policy (Windows PowerShell only)
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
