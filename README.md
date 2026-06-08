@@ -60,17 +60,21 @@ password = "123456"
 username = request.form['username']
 ```
 🔴 Risk: Injection attacks
-✅ Fix: ```python
+✅ Fix: 
+    ```python
 if not username:
     return "Invalid input"
     ```
 ### ⚠️ 4. Incomplete Authentication Logic
-- No proper password verification
+- users.db included in project
 ```python
 bcrypt.checkpw(password.encode(), stored_password)
 ```
-
-
+---
+✅ Secure Practices Identified
+✔️ Password hashing using bcrypt
+✔️ Parameterized SQL queries
+✔️ Rate limiting implemented
 ---
 ## 📁 Project Structure
 ```bash
