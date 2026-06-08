@@ -146,7 +146,8 @@ Type "http://127.0.0.1:5000"
 - Learning Flask security basics
 
 ---
-👨‍💻 Developer
+## 👨‍💻 Developer
+
 Abdulbaseer Serat - MS in Computer Sciences · Abasyn University · CodeAlpha Intern
 https://github.com/abdulbaseer-Serat · https://linkedin.com/in/abdul-basir-serat-65b8201ab · info.abdulbasir@gmail.com
 ---
