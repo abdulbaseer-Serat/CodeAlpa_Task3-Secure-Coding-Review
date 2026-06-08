@@ -47,7 +47,7 @@ app.secret_key = "supersecretkey"
 
 ---
 ## 📁 Project Structure
-```
+```bash
 TASK 3 Secure Coding Review/
 ├── templates/        → HTML templates (UI pages)
 ├── venv/             → Virtual environment (can be ignored in repo)
