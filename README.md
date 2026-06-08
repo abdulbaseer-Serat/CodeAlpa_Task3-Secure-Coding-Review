@@ -38,4 +38,20 @@ TASK 3 Secure Coding Review/
 ├── app.py            → Main application file
 ├── database_db.py    → Database connection & setup
 └── users.db          → SQLite database file
+└── README.md         → Documentation
 ```
+## 🛠️ Tools & Technologies Used
+
+- 🐍 Python (or your selected language)  
+- 🔍 Static Code Analysis  
+- 🧠 Manual Code Review Techniques  
+- 🔐 Secure Coding Practices  
+
+---
+
+## ▶️ How to Run
+1. 
+1. Navigate to the project directory e.g.:
+
+```bash
+cd "F:\Internships DATA\CodeAlpha\Cyber Security Tasks\TASK 3 Secure Coding Review"
