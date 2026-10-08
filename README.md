@@ -153,4 +153,4 @@ MS in Computer Sciences · Abasyn University · CodeAlpha Intern  [GitHub](https
 
 ---
 
-Built with 💜 as part of CodeAlpha Internship — Task 3.
+Built with 💜 as part of CodeAlpha Internship — Task 3
