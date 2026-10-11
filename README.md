@@ -18,11 +18,11 @@ The goal is to identify security vulnerabilities and apply best practices to imp
 
 ## 🎯 Objective
 
-- Select an application to audit  
-- Perform code review to identify vulnerabilities  
-- Use static analysis and manual inspection  
-- Provide recommendations for secure coding  
-- Document findings and remediation steps  
+- Select an application to audit.  
+- Perform code review to identify vulnerabilities.  
+- Use static analysis and manual inspection.  
+- Provide recommendations for secure coding.  
+- Document findings and remediation steps.  
 
 
 ## 🧪 Application Details
