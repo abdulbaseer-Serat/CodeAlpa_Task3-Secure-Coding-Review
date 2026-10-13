@@ -1,8 +1,8 @@
 # 🔐 TASK 3: Secure Coding Review
 
 ## 📌 Overview
-This project focuses on performing a **Secure Coding Review** on a Python Flask-based application.  
-The goal is to identify security vulnerabilities and apply best practices to improve application security.
+This project focuses on performing a **Secure Coding Review** on a Python Flask-based application  
+The goal is to identify security vulnerabilities and apply best practices to improve application security
 
 ---
 ## 📋 Task Requirements
