@@ -6,7 +6,6 @@ The goal is to identify security vulnerabilities and apply best practices to imp
 
 
 *
-
 ---
 ## 📋 Task Requirements
 
